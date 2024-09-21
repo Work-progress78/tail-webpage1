@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Website</title>
+    <link rel="stylesheet" href="./tail.css">
+</head>
+<body>
+    <div class=" bg-[url('./Images/Image.png')] w-100% bg-center bg-cover px-12 py-5 relative">
+        <nav class="flex text-white ">
+            <img src="./Images/logo.png" class="w-40 cursor-pointer">
+            <ul class="flex-1 text-center">
+                <li class="inline-block p-5"><a href="#" class="no-underline p-3">Home</a></li>
+                <li class="inline-block p-5"><a href="#" class="no-underline p-3">About</a></li>
+                <li class="inline-block p-5"><a href="#" class="no-underline p-3">Features</a></li>
+                <li class="inline-block p-5"><a href="#" class="no-underline p-3">Contact</a></li>
+            </ul>
+            <img src="./Images/cart.png" class="w-8 cursor-pointer h-9">
+        </nav>
+
+        <div class="text-white mt-48 max-w-xl">
+            <h1 class="text-6xl font-semibold leading-normal">Groceries <br>Delivery in <span class="font-light">15 mins</span></h1>
+            <p>Grocify odders a wide range of products, including fresh products, meats,<br> dairy, baked goods and non-perishable items.</p>
+
+            <div class="mt-16">
+                <a href="#" class="bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent">Order Now</a>
+                <a href="#" class="border border-green-400 rounded-2xl py-3 px-2 font-medium md:mt-8">Download App <span class="text-lg inline-block size-medium rotate-90">&#10148</span></a>
+            </div>
+
+            <div>
+                <img src="Images/grocery-image.png" class="w-50% md:w-1/2 md:absolute md:bottom-28 right-0">
+            </div>
+        </div>
+
+        <div class="border-t-2 border-gray-300 flex flex-col md:flex-row md:justify-between text-center py-5 text-sm mt-32">
+            <div class="m-4 text-white">
+                <a href="#" class="mx-2.5">About</a>
+                <a href="#" class="mx-2.5">Privacy Policy</a>
+                <a href="#" class="mx-2.5">Terms of Services</a>
+            </div>
+            <p class="text-white">&copy; Copyright Reserved 2024</p>
+        </div>
+    </div>
+</body>
+</html>
