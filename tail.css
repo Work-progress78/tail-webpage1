@@ -588,6 +588,14 @@ video {
   }
 }
 
+.visible {
+  visibility: visible;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
 .absolute {
   position: absolute;
 }
@@ -644,6 +652,30 @@ video {
   top: 2.25rem;
 }
 
+.top-\[-10\%\] {
+  top: -10%;
+}
+
+.top-\[100\%\] {
+  top: 100%;
+}
+
+.top-\[-109\%\] {
+  top: -109%;
+}
+
+.top-\[-9\%\] {
+  top: -9%;
+}
+
+.top-\[-\%\] {
+  top: -%;
+}
+
+.top-\[5\%\] {
+  top: 5%;
+}
+
 .m-4 {
   margin: 1rem;
 }
@@ -680,6 +712,10 @@ video {
 
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-20 {
@@ -862,6 +898,11 @@ video {
 .bg-gray-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\.\/Images\/Image\.png\'\)\] {
